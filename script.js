@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     const display = document.getElementById("calc-display");
     const buttons = document.querySelectorAll(".btn");
