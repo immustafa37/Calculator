@@ -10,33 +10,42 @@
     <div class="calculator-container">
         <div class="theme-toggle">🌞</div>
         <div class="display">
-            <input type="text" id="calc-display" disabled>
+            <input type="text" id="calc-display" readonly>
+        </div>
+        <div class="history">
+            <h4>History</h4>
+            <ul id="history-list"></ul>
         </div>
         <div class="buttons">
             <button class="btn" data-action="clear">C</button>
             <button class="btn" data-action="backspace">⌫</button>
-            <button class="btn" data-action="percent">%</button>
-            <button class="btn operator" data-action="divide">/</button>
-            
+            <button class="btn" data-action="memory-clear">MC</button>
+            <button class="btn" data-action="memory-recall">MR</button>
+            <button class="btn" data-action="memory-add">M+</button>
+            <button class="btn" data-action="memory-subtract">M-</button>
+            <button class="btn" data-action="sqrt">√</button>
+            <button class="btn" data-action="power">x²</button>
+            <button class="btn" data-action="log">log</button>
+            <button class="btn" data-action="sin">sin</button>
+            <button class="btn" data-action="cos">cos</button>
+            <button class="btn" data-action="tan">tan</button>
+            <button class="btn operator" data-action="divide">÷</button>
             <button class="btn" data-value="7">7</button>
             <button class="btn" data-value="8">8</button>
             <button class="btn" data-value="9">9</button>
-            <button class="btn operator" data-action="multiply">*</button>
-            
+            <button class="btn operator" data-action="multiply">×</button>
             <button class="btn" data-value="4">4</button>
             <button class="btn" data-value="5">5</button>
             <button class="btn" data-value="6">6</button>
-            <button class="btn operator" data-action="subtract">-</button>
-            
+            <button class="btn operator" data-action="subtract">−</button>
             <button class="btn" data-value="1">1</button>
             <button class="btn" data-value="2">2</button>
             <button class="btn" data-value="3">3</button>
             <button class="btn operator" data-action="add">+</button>
-            
-            <button class="btn" data-action="sqrt">√</button>
             <button class="btn" data-value="0">0</button>
             <button class="btn" data-action="decimal">.</button>
             <button class="btn equal" data-action="calculate">=</button>
+            <button class="btn" data-action="copy">📋</button>
         </div>
     </div>
     <script src="script.js"></script>
